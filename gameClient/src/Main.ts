@@ -129,9 +129,11 @@ class Main extends eui.UILayer
 		this.makePlayer();
 	}
 
+	private hero:egret.MovieClip;
+	private heroDataFactory:egret.MovieClipDataFactory;
+
 	private _cellSize:number = 40;
 	private _grid:Grid;
-	private _player:egret.Sprite;
 	private _index:number;
 	private _path:NodePoint[];
 
@@ -140,18 +142,27 @@ class Main extends eui.UILayer
 
 	private makePlayer():void
 	{
-		this._player = new egret.Sprite();
-		//this._player.touchChildren = false;
-		this._player.touchEnabled = true;//当为true时 点击事件会穿过该对象到达侦听对象
-		this._player.graphics.beginFill(0xff0000);
-		this._player.graphics.drawCircle(0, 0, 5);
-		this._player.graphics.endFill();
-		this._player.x = 50;
-		this._player.y = 60;
-		this.addChild(this._player);
+		var map:egret.Bitmap = new egret.Bitmap();
+		map.texture = RES.getRes("map");
+		this.addChild(map);
+		map.width = this.stage.stageWidth;
+		map.height = this.stage.stageHeight;
 
-		this._lineShape = new egret.Shape();
-		this.addChild(this._lineShape);
+
+		var data = RES.getRes("heroJson");
+		var tex = RES.getRes("hero");
+		var mcf:egret.MovieClipDataFactory = new egret.MovieClipDataFactory(data, tex);
+		var clipData:egret.MovieClipData = mcf.generateMovieClipData("y_idle");
+		this.heroDataFactory = mcf;
+
+
+		this.hero = new egret.MovieClip(clipData);
+		this.addChild(this.hero);
+
+
+		this.hero.x = this.hero.width;
+		this.hero.y = this.hero.height;
+		this.hero.play(-1);
 	}
 
 	private makeGrid():void
@@ -164,10 +175,10 @@ class Main extends eui.UILayer
 
 		this._grid = new Grid(16, 26, 40);
 		//随机障碍物
-		for (var i:number = 0; i < 20; i++)
-		{
-			this._grid.setWalkable(Math.floor(Math.random() * 10), Math.floor(Math.random() * 10), false);
-		}
+		// for (var i:number = 0; i < 20; i++)
+		// {
+		// 	this._grid.setWalkable(Math.floor(Math.random() * 10), Math.floor(Math.random() * 10), false);
+		// }
 		this.drawGrid();
 	}
 
@@ -203,9 +214,20 @@ class Main extends eui.UILayer
 		var endNp:NodePoint = this._grid.getNode(xpos, ypos);
 
 
-		var xpos2:number = Math.floor(this._player.x / this._cellSize);
-		var ypos2:number = Math.floor(this._player.y / this._cellSize);
+		var xpos2:number = Math.floor(this.hero.x / this._cellSize);
+		var ypos2:number = Math.floor(this.hero.y / this._cellSize);
 		var startNp:NodePoint = this._grid.getNode(xpos2, ypos2);
+
+		this.hero.movieClipData = this.heroDataFactory.generateMovieClipData("y_move");
+		this.hero.play(-1);
+
+		if (endNp.x > startNp.x)
+		{
+			this.hero.scaleX = 1;
+		} else
+		{
+			this.hero.scaleX = -1;
+		}
 
 		if (endNp.walkable == false)
 		{
@@ -220,15 +242,7 @@ class Main extends eui.UILayer
 		this._grid.setStartNode(xpos2, ypos2);
 		this._grid.setEndNode(xpos, ypos);
 
-
 		this.findPath();
-
-		////画红线
-		this._lineShape.graphics.clear();
-		this._lineShape.graphics.lineStyle(1, 0xFF0000);
-		this._lineShape.graphics.moveTo(xpos2 * this._cellSize + 10, ypos2 * this._cellSize + 10);
-		this._lineShape.graphics.lineTo(xpos * this._cellSize + 10, ypos * this._cellSize + 10);
-		this._lineShape.graphics.endFill();
 	}
 
 	private findPath():void
@@ -241,23 +255,30 @@ class Main extends eui.UILayer
 			//在路径中去掉起点节点，避免玩家对象走回头路
 			astar.floydPath.shift();
 			this._path = astar.floydPath;
-			//this._path = astar.path;
+			// this._path = astar.path;
 			this._index = 0;
+
+			if (this.hasEventListener(egret.Event.ENTER_FRAME))
+			{
+				this.removeEventListener(egret.Event.ENTER_FRAME, this.onEnterFrame, this);
+			}
 			this.addEventListener(egret.Event.ENTER_FRAME, this.onEnterFrame, this);
 		}
 	}
 
-	private onEnterFrame(evt:egret.Event)
+	private onEnterFrame(evt:egret.TimerEvent)
 	{
 		if (this._path.length == 0)
 		{
 			this.removeEventListener(egret.Event.ENTER_FRAME, this.onEnterFrame, this);
 			return;
 		}
+
 		var targetX:number = this._path[this._index].x * this._cellSize + this._cellSize / 2;
 		var targetY:number = this._path[this._index].y * this._cellSize + this._cellSize / 2;
-		var dx:number = targetX - this._player.x;
-		var dy:number = targetY - this._player.y;
+		var dx:number = targetX - this.hero.x;
+		var dy:number = targetY - this.hero.y;
+
 		var dist:number = Math.sqrt(dx * dx + dy * dy);
 		if (dist < 1)
 		{
@@ -265,12 +286,15 @@ class Main extends eui.UILayer
 			if (this._index >= this._path.length)
 			{
 				this.removeEventListener(egret.Event.ENTER_FRAME, this.onEnterFrame, this);
+
+				this.hero.movieClipData = this.heroDataFactory.generateMovieClipData("y_idle");
+				this.hero.play(-1);
 			}
 		}
 		else
 		{
-			this._player.x += dx * .5;
-			this._player.y += dy * .5;
+			this.hero.x += dx * .25;
+			this.hero.y += dy * .25;
 		}
 	}
 }

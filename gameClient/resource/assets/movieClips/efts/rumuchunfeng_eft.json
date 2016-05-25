@@ -1,0 +1,32 @@
+{
+"file":"rumuchunfeng_eft.png",
+"mc":{
+	"eft":{
+"frameRate": 24,
+"frames":[{"res":"image 1.png","x":-81,"y":-120,"duration":2},
+{"res":"image 2.png","x":-81,"y":-119,"duration":2},
+{"res":"image 3.png","x":-81,"y":-116,"duration":2},
+{"res":"image 4.png","x":-81,"y":-112,"duration":2},
+{"res":"image 5.png","x":-81,"y":-106,"duration":2},
+{"res":"image 6.png","x":-81,"y":-102,"duration":2},
+{"res":"image 7.png","x":-81,"y":-98,"duration":2},
+{"res":"image 8.png","x":-81,"y":-95,"duration":2},
+{"res":"image 9.png","x":-81,"y":-89,"duration":2},
+{"res":"image 10.png","x":-80,"y":-88,"duration":2},
+{"res":"image 11.png","x":-81,"y":-92,"duration":2},
+{"res":"image 12.png","x":-81,"y":-90,"duration":2}]
+}
+},"res":{
+"image 1.png":{"x":0,"y":0,"w":170,"h":176},
+"image 2.png":{"x":170,"y":0,"w":170,"h":173},
+"image 3.png":{"x":340,"y":0,"w":170,"h":170},
+"image 4.png":{"x":510,"y":0,"w":170,"h":166},
+"image 5.png":{"x":680,"y":0,"w":172,"h":162},
+"image 6.png":{"x":852,"y":0,"w":172,"h":159},
+"image 7.png":{"x":0,"y":176,"w":172,"h":156},
+"image 8.png":{"x":172,"y":176,"w":172,"h":151},
+"image 9.png":{"x":344,"y":176,"w":170,"h":146},
+"image 10.png":{"x":514,"y":176,"w":170,"h":145},
+"image 11.png":{"x":684,"y":176,"w":172,"h":148},
+"image 12.png":{"x":856,"y":176,"w":170,"h":147}}
+}
