@@ -5,7 +5,7 @@
 var EUITest = (function () {
     function EUITest() {
         var groupName = "preload";
-        var subGroups = ["preload_core", "preload_ui"];
+        var subGroups = ["preload_core", "preload_ui", "preload_gameRes"];
         App.ResourceUtils.loadGroups(groupName, subGroups, this.onResourceLoadComplete, this.onResourceLoadProgress, this);
     }
     var d = __define,c=EUITest,p=c.prototype;

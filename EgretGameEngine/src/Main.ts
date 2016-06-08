@@ -1,3 +1,4 @@
+import ResourceEvent = RES.ResourceEvent;
 class Main extends egret.DisplayObjectContainer
 {
 	public constructor()
@@ -44,6 +45,7 @@ class Main extends egret.DisplayObjectContainer
 		App.ResourceUtils.addConfig("resource/resource_core.json", "resource/");
 		App.ResourceUtils.addConfig("resource/resource_ui.json", "resource/");
 		App.ResourceUtils.addConfig("resource/resource_battle.json", "resource/");
+		App.ResourceUtils.addConfig("resource/resource_game.json", "resource/");
 		App.ResourceUtils.loadConfig(this.onConfigComplete, this);
 	}
 
@@ -62,10 +64,10 @@ class Main extends egret.DisplayObjectContainer
 	 */
 	private onThemeLoadComplete():void
 	{
-		// new EUITest();
-		new ActTest();
-       // new ProtoBufTest();
-       // new StarlingSwfTest();
+		new EUITest();
+		// new ActTest();
+		// new ProtoBufTest();
+		// new StarlingSwfTest();
 	}
 
 	/**

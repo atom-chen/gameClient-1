@@ -25,6 +25,16 @@
 	  "name":"socket"
 	},
 	{
+	  "name": "dragonBones"
+	},
+	{
+	  "name": "tween"
+	},
+	{
+	  "name": "protobuf",
+	  "path": "../extension/protobuf"
+	},
+	{
 	  "name": "xiaodingCore",
 	  "path": "../extension/xiaodingCore"
 	}

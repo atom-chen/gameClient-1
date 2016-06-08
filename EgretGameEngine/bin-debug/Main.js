@@ -1,3 +1,4 @@
+var ResourceEvent = RES.ResourceEvent;
 var Main = (function (_super) {
     __extends(Main, _super);
     function Main() {
@@ -33,6 +34,7 @@ var Main = (function (_super) {
         App.ResourceUtils.addConfig("resource/resource_core.json", "resource/");
         App.ResourceUtils.addConfig("resource/resource_ui.json", "resource/");
         App.ResourceUtils.addConfig("resource/resource_battle.json", "resource/");
+        App.ResourceUtils.addConfig("resource/resource_game.json", "resource/");
         App.ResourceUtils.loadConfig(this.onConfigComplete, this);
     };
     /**
@@ -47,8 +49,8 @@ var Main = (function (_super) {
      * 主题文件加载完成
      */
     p.onThemeLoadComplete = function () {
-        // new EUITest();
-        new ActTest();
+        new EUITest();
+        // new ActTest();
         // new ProtoBufTest();
         // new StarlingSwfTest();
     };

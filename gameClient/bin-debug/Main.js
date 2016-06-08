@@ -1,227 +1,57 @@
 var Main = (function (_super) {
     __extends(Main, _super);
     function Main() {
-        _super.apply(this, arguments);
-        this.isThemeLoadEnd = false;
-        this.isResourceLoadEnd = false;
-        this._cellSize = 40;
+        _super.call(this);
+        if (this.stage) {
+            this.init();
+        }
+        else {
+            this.addEventListener(egret.Event.ADDED_TO_STAGE, this.handlerAddToStageEvt, this);
+        }
     }
     var d = __define,c=Main,p=c.prototype;
-    p.createChildren = function () {
-        _super.prototype.createChildren.call(this);
-        //inject the custom material parser
-        //注入自定义的素材解析器
-        var assetAdapter = new AssetAdapter();
-        this.stage.registerImplementation("eui.IAssetAdapter", assetAdapter);
+    p.handlerAddToStageEvt = function (ev) {
+        this.removeEventListener(egret.Event.ADDED_TO_STAGE, this.handlerAddToStageEvt, this);
+        this.init();
+    };
+    p.init = function () {
+        //注册解析器
+        this.stage.registerImplementation("eui.IAssetAdapter", new AssetAdapter());
         this.stage.registerImplementation("eui.IThemeAdapter", new ThemeAdapter());
-        //Config loading process interface
-        //设置加载进度界面
-        this.loadingView = new LoadingUI();
-        this.stage.addChild(this.loadingView);
-        // initialize the Resource loading library
-        //初始化Resource资源加载库
-        RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
-        RES.loadConfig("resource/default.res.json", "resource/");
+        //适配方式
+        if (App.DeviceUtils.IsPC) {
+            App.StageUtils.setScaleMode(egret.StageScaleMode.SHOW_ALL);
+        }
+        //初始化
+        this.initScene();
+        this.initModule();
+        App.SceneManager.runScene(SceneConstants.SCENE_LOADING);
+        this.initGameConfig();
     };
-    /**
-     * 配置文件加载完成,开始预加载皮肤主题资源和preload资源组。
-     * Loading of configuration file is complete, start to pre-load the theme configuration file and the preload resource group
-     */
-    p.onConfigComplete = function (event) {
-        RES.removeEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
-        // load skin theme configuration file, you can manually modify the file. And replace the default skin.
-        //加载皮肤主题配置文件,可以手动修改这个文件。替换默认皮肤。
+    p.initGameConfig = function () {
+        App.ResourceUtils.addConfig("resource/gameEuiRes.json", "resource/");
+        App.ResourceUtils.addConfig("resource/gameRes.json", "resource/");
+        App.ResourceUtils.loadConfig(this.onConfigComplete, this);
+    };
+    p.onConfigComplete = function () {
         var theme = new eui.Theme("resource/default.thm.json", this.stage);
-        theme.addEventListener(eui.UIEvent.COMPLETE, this.onThemeLoadComplete, this);
-        RES.addEventListener(RES.ResourceEvent.GROUP_COMPLETE, this.onResourceLoadComplete, this);
-        RES.addEventListener(RES.ResourceEvent.GROUP_LOAD_ERROR, this.onResourceLoadError, this);
-        RES.addEventListener(RES.ResourceEvent.GROUP_PROGRESS, this.onResourceProgress, this);
-        RES.addEventListener(RES.ResourceEvent.ITEM_LOAD_ERROR, this.onItemLoadError, this);
-        RES.loadGroup("preload");
+        //主题配置加载完成
+        theme.addEventListener(eui.UIEvent.COMPLETE, this.onThemeComplete, this);
     };
-    /**
-     * 主题文件加载完成,开始预加载
-     * Loading of theme configuration file is complete, start to pre-load the
-     */
-    p.onThemeLoadComplete = function () {
-        this.isThemeLoadEnd = true;
-        this.createScene();
+    p.onThemeComplete = function () {
+        var btn = new eui.Button();
+        this.addChild(btn);
+        btn.label = "hhhhh";
+        btn.x = 200;
+        new MainGameEntry();
     };
-    /**
-     * preload资源组加载完成
-     * preload resource group is loaded
-     */
-    p.onResourceLoadComplete = function (event) {
-        if (event.groupName == "preload") {
-            this.stage.removeChild(this.loadingView);
-            RES.removeEventListener(RES.ResourceEvent.GROUP_COMPLETE, this.onResourceLoadComplete, this);
-            RES.removeEventListener(RES.ResourceEvent.GROUP_LOAD_ERROR, this.onResourceLoadError, this);
-            RES.removeEventListener(RES.ResourceEvent.GROUP_PROGRESS, this.onResourceProgress, this);
-            RES.removeEventListener(RES.ResourceEvent.ITEM_LOAD_ERROR, this.onItemLoadError, this);
-            this.isResourceLoadEnd = true;
-            this.createScene();
-        }
+    p.initScene = function () {
+        App.SceneManager.register(SceneConstants.SCENE_LOADING, new SceneLoading);
     };
-    p.createScene = function () {
-        if (this.isThemeLoadEnd && this.isResourceLoadEnd) {
-            this.startCreateScene();
-        }
-    };
-    /**
-     * 资源组加载出错
-     *  The resource group loading failed
-     */
-    p.onItemLoadError = function (event) {
-        console.warn("Url:" + event.resItem.url + " has failed to load");
-    };
-    /**
-     * 资源组加载出错
-     * Resource group loading failed
-     */
-    p.onResourceLoadError = function (event) {
-        //TODO
-        console.warn("Group:" + event.groupName + " has failed to load");
-        //忽略加载失败的项目
-        //ignore loading failed projects
-        this.onResourceLoadComplete(event);
-    };
-    /**
-     * preload资源组加载进度
-     * loading process of preload resource
-     */
-    p.onResourceProgress = function (event) {
-        if (event.groupName == "preload") {
-            this.loadingView.setProgress(event.itemsLoaded, event.itemsTotal);
-        }
-    };
-    /**
-     * 创建场景界面
-     * Create scene interface
-     */
-    p.startCreateScene = function () {
-        // ClientSocket.getInstance().init("ws://192.168.1.92", 8887);
-        this.makeGrid();
-        this.makePlayer();
-    };
-    p.makePlayer = function () {
-        var map = new egret.Bitmap();
-        map.texture = RES.getRes("map");
-        this.addChild(map);
-        map.width = this.stage.stageWidth;
-        map.height = this.stage.stageHeight;
-        var data = RES.getRes("heroJson");
-        var tex = RES.getRes("hero");
-        var mcf = new egret.MovieClipDataFactory(data, tex);
-        var clipData = mcf.generateMovieClipData("y_idle");
-        this.heroDataFactory = mcf;
-        this.hero = new egret.MovieClip(clipData);
-        this.addChild(this.hero);
-        this.hero.x = this.hero.width;
-        this.hero.y = this.hero.height;
-        this.hero.play(-1);
-    };
-    p.makeGrid = function () {
-        this._gridContent = new egret.DisplayObjectContainer();
-        this._gridContent.touchEnabled = true;
-        this._gridContent.touchChildren = false;
-        this._gridContent.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onGridClick, this);
-        this.addChild(this._gridContent);
-        this._grid = new Grid(16, 26, 40);
-        //随机障碍物
-        // for (var i:number = 0; i < 20; i++)
-        // {
-        // 	this._grid.setWalkable(Math.floor(Math.random() * 10), Math.floor(Math.random() * 10), false);
-        // }
-        this.drawGrid();
-    };
-    p.drawGrid = function () {
-        var rect = new egret.Shape();
-        this._gridContent.addChild(rect);
-        for (var i = 0; i < this._grid.numCols; i++) {
-            for (var j = 0; j < this._grid.numRows; j++) {
-                var node = this._grid.getNode(i, j);
-                rect.graphics.lineStyle(1);
-                rect.graphics.beginFill(this.getColor(node));
-                rect.graphics.drawRect(i * this._cellSize, j * this._cellSize, this._cellSize, this._cellSize);
-            }
-        }
-        rect.graphics.endFill();
-    };
-    p.getColor = function (node) {
-        if (!node.walkable)
-            return 0x000000;
-        if (node == this._grid.startNode)
-            return 0x999900;
-        if (node == this._grid.endNode)
-            return 0x0000ff;
-        return 0xcccccc;
-    };
-    p.onGridClick = function (event) {
-        var xpos = Math.floor(event.stageX / this._cellSize);
-        var ypos = Math.floor(event.stageY / this._cellSize);
-        var endNp = this._grid.getNode(xpos, ypos);
-        var xpos2 = Math.floor(this.hero.x / this._cellSize);
-        var ypos2 = Math.floor(this.hero.y / this._cellSize);
-        var startNp = this._grid.getNode(xpos2, ypos2);
-        this.hero.movieClipData = this.heroDataFactory.generateMovieClipData("y_move");
-        this.hero.play(-1);
-        if (endNp.x > startNp.x) {
-            this.hero.scaleX = 1;
-        }
-        else {
-            this.hero.scaleX = -1;
-        }
-        if (endNp.walkable == false) {
-            var replacer = this._grid.findReplacer(startNp, endNp);
-            if (replacer) {
-                xpos = replacer.x;
-                ypos = replacer.y;
-            }
-        }
-        this._grid.setStartNode(xpos2, ypos2);
-        this._grid.setEndNode(xpos, ypos);
-        this.findPath();
-    };
-    p.findPath = function () {
-        var astar = new AStar2();
-        if (astar.findPath(this._grid)) {
-            //得到平滑路径
-            astar.floyd();
-            //在路径中去掉起点节点，避免玩家对象走回头路
-            astar.floydPath.shift();
-            this._path = astar.floydPath;
-            // this._path = astar.path;
-            this._index = 0;
-            if (this.hasEventListener(egret.Event.ENTER_FRAME)) {
-                this.removeEventListener(egret.Event.ENTER_FRAME, this.onEnterFrame, this);
-            }
-            this.addEventListener(egret.Event.ENTER_FRAME, this.onEnterFrame, this);
-        }
-    };
-    p.onEnterFrame = function (evt) {
-        if (this._path.length == 0) {
-            this.removeEventListener(egret.Event.ENTER_FRAME, this.onEnterFrame, this);
-            return;
-        }
-        var targetX = this._path[this._index].x * this._cellSize + this._cellSize / 2;
-        var targetY = this._path[this._index].y * this._cellSize + this._cellSize / 2;
-        var dx = targetX - this.hero.x;
-        var dy = targetY - this.hero.y;
-        var dist = Math.sqrt(dx * dx + dy * dy);
-        if (dist < 1) {
-            this._index++;
-            if (this._index >= this._path.length) {
-                this.removeEventListener(egret.Event.ENTER_FRAME, this.onEnterFrame, this);
-                this.hero.movieClipData = this.heroDataFactory.generateMovieClipData("y_idle");
-                this.hero.play(-1);
-            }
-        }
-        else {
-            this.hero.x += dx * .25;
-            this.hero.y += dy * .25;
-        }
+    p.initModule = function () {
+        App.ControllerManager.register(ModuleContronConstants.LOADING, new LoadingControl);
     };
     return Main;
-}(eui.UILayer));
+}(egret.DisplayObjectContainer));
 egret.registerClass(Main,'Main');
 //# sourceMappingURL=Main.js.map

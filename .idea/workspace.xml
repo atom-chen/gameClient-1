@@ -2,8 +2,581 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b59714c8-4214-4d30-b6f0-8caec3381199" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extension/protobuf/bin/protobuf/protobuf.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extension/protobuf/bin/protobuf/protobuf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extension/protobuf/bin/protobuf/protobuf.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extension/protobuf/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extension/protobuf/src/ByteBufferAB.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extension/protobuf/src/Long.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extension/protobuf/src/ProtoBuf.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extension/protobuf/src/ProtoBuf.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/resource/gameEuiRes.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/com/xiaoding/game/MainGameEntry.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/com/xiaoding/game/constants/ModuleContronConstants.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/com/xiaoding/game/constants/SceneConstants.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/com/xiaoding/game/loading/control/LoadingControl.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/com/xiaoding/game/scenes/SceneLoading.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/App.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/adapter/MergeJsonAnalyzer.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/base/BaseClass.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/consts/Keyboard.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/display/BitmapNumber.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/display/HotspotBitmap.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/dragonBones/DragonBonesArmature.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/dragonBones/DragonBonesArmatureContainer.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/dragonBones/DragonBonesFactory.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/dragonBones/EgretTextureAtlasMore.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/module/guide/GuideMaskBackgroud.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/module/guide/GuideUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/module/guide/GuideView.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/module/loading/EasyLoading.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/mvc/ControllerManager.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/mvc/ViewManager.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/mvc/controller/BaseController.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/mvc/model/BaseModel.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/mvc/proxy/BaseProxy.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/mvc/view/BaseEuiView.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/mvc/view/BaseSpriteView.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/mvc/view/IBaseView.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/net/http/DataCache.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/net/http/DataUpdate.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/net/http/Http.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/net/socket/BaseMsg.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/net/socket/ByteArrayMsg.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/net/socket/ByteArrayMsgByProtobuf.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/net/socket/Socket.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/net/socket/SocketConst.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/net/socket/UTFMsg.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/net/socket/UTFMsgByJson.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/scene/base/BaseEuiLayer.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/scene/base/BaseScene.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/scene/base/BaseSpriteLayer.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/scene/manager/SceneManager.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/sound/BaseSound.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/sound/SoundBg.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/sound/SoundEffects.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/sound/SoundManager.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/starlingswf/Swf.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/starlingswf/SwfAssetManager.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/starlingswf/SwfUpdateManager.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/starlingswf/display/ISwfAnimation.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/starlingswf/display/SwfMovieClip.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/starlingswf/display/SwfSprite.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/starlingswf/game/StarlingSwfFactory.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/starlingswf/game/StarlingSwfMovieClip.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/starlingswf/game/StarlingSwfUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/AllAsyncExecutor.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/AnchorUtil.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/ArrayUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/AverageUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/CommonUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/DateUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/DebugUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/DelayOptManager.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/DeviceUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/DisplayUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/EffectUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/EgretExpandUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/FrameDelay.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/FrameExecutor.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/KeyboardUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/LocationProperty.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/Log.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/MathUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/MessageCenter.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/ObjectPool.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/Percent.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/QueueExecutor.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/RandomUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/RenderTextureManager.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/ResVersionManager.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/ResourceUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/RockerUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/ShockUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/StageUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/StringBuffer.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/StringUtils.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/TextFlowMaker.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/TimerManager.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameClient/src/core/utils/md5.ts" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/bin-debug/AssetAdapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/bin-debug/AssetAdapter.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/bin-debug/ThemeAdapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/bin-debug/ThemeAdapter.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/Button/button_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/Button/button_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/CheckBox/checkbox_select_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/CheckBox/checkbox_select_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/CheckBox/checkbox_select_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/CheckBox/checkbox_unselect.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ItemRenderer/selected.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/Panel/border.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/Panel/header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ProgressBar/thumb_pb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ProgressBar/track_pb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/RadioButton/radiobutton_select_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/RadioButton/radiobutton_select_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/RadioButton/radiobutton_select_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/RadioButton/radiobutton_unselect.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ScrollBar/roundthumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ScrollBar/track_sb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/Slider/thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/Slider/track.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/Slider/tracklight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ToggleSwitch/handle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ToggleSwitch/off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ToggleSwitch/on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/Buff.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/BuyGold.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/BuyTiLi.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/ChongZhi.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/Common.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/Equip.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/EquipStreng.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/EveryDayTask.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/GameLevel.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/Guide.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/Hero.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/HeroHome.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/MainTask.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/QianDao.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/ShenQi.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/Skill.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/item.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/config/shop.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/by1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l1-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l10-15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l110-115.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l115-120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l15-20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l20-25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l25-30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l30-35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l35-40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l40-46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l40-60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l46-54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l5-10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l54-62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l62-68.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l68-74.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l74-82.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l80-85.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l85-92.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l90-105.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/l92-100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/levelBar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/levelBar1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/levelClose.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/levelbg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/levelbg2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/gamelevel/levelbg3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/toukui1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/toukui2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/toukui3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/toukui4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/toukui5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/wuqi1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/wuqi10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/wuqi11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/wuqi2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/wuqi3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/wuqi4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/wuqi5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/wuqi6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/wuqi7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/wuqi8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/wuqi9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/xiezi1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/xiezi2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/xiezi3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/xiezi4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/xiezi5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/yifu1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/yifu2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/yifu3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/yifu4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/equip/yifu5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/hero/jianxing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/hero/xianlingzi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/dajineng1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/dajineng2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/dajineng3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/dajineng4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/daxiangjinbi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/jingyan1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/jingyan2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/jingyan3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/saodanjuan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/toukuimetarial1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/toukuimetarial2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/toukuimetarial3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/toukuimetarial4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/toukuimetarial5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/toukuimetarial6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/toukuimetarial7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/toukuimetarial8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/wuqimetarial1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/wuqimetarial2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/wuqimetarial3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/wuqimetarial4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/wuqimetarial5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/wuqimetarial6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/wuqimetarial7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/wuqimetarial8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/xiaojineng1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/xiaojineng2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/xiaojineng3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/xiaojineng4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/xiaoxiangjinbi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/xiezimetarial1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/xiezimetarial2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/xiezimetarial3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/xiezimetarial4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/xiezimetarial5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/xiezimetarial6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/xiezimetarial7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/xiezimetarial8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/xinshoulibao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/yaoji1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/yaoji2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/yaoji3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/yifumetarial1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/yifumetarial2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/yifumetarial3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/yifumetarial4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/yifumetarial5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/yifumetarial6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/yifumetarial7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/yifumetarial8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/zhantie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/item/zhongxiangjinbi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/shenqi/shenqi1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/shenqi/shenqi10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/shenqi/shenqi2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/shenqi/shenqi3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/shenqi/shenqi4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/shenqi/shenqi5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/shenqi/shenqi6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/shenqi/shenqi7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/shenqi/shenqi8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/shenqi/shenqi9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/skill/huoyanfentian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/skill/jian19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/skill/rumuchunfeng.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/skill/tianlingjian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/skill/wanjianguizhong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/skill/xianlingzhufu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/skill/yujianshu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/skill/zhiyuzhiguang.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/task/task1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/task/task2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/task/task3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/task/task4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/task/task5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/task/task6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/task/task7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/task/task8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/icon/task/task9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/chapter9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/event1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/event2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/event3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/event4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jinbilevel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying20.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying35.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying40.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying55.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying60.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying75.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying80.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jingying95.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jjc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/jjclevel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level12.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level13.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level16.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level17.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level18.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level19.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level20.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level22.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level23.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level24.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level25.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level26.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level27.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level28.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level29.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level30.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level31.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level32.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level33.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level34.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level35.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level36.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level37.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level38.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level39.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level40.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level41.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level42.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level43.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level44.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level45.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level46.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level47.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level48.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level49.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level50.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level51.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level52.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level53.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level54.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level55.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level56.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level57.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level58.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level59.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level60.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level61.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level62.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level63.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level64.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level65.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level66.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level67.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level68.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level69.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level70.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level71.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level72.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level73.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level74.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level75.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level76.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level77.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level78.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level79.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level80.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level81.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level82.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level83.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level84.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level85.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level86.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level87.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level88.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level89.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/level90.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/map1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/skilllevel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/wuqilevel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/maps/zuanshilevel.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/dadao.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/dadao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/daofei.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/daofei.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/dayan.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/dayan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/duse.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/duse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/huoyanfentian_eft.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/huoyanfentian_eft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/jian19_eft.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/jian19_eft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/levelup_eft.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/levelup_eft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/rumuchunfeng_eft.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/rumuchunfeng_eft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/shandian_eft.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/shandian_eft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/shouji_eft.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/shouji_eft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/tianlingjian_eft.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/tianlingjian_eft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/wanjianguizhong_eft.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/wanjianguizhong_eft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/xianlingzhufu_eft.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/xianlingzhufu_eft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/zhiyuzhiguang_eft.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/efts/zhiyuzhiguang_eft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/feishu.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/feishu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/hehua.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/hehua.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/home1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/home1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/home2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/home2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/huixiong.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/huixiong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/jianxing.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/jianxing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/laohu.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/laohu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/mamian.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/mamian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/qiangke.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/qiangke.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/shouren.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/shouren.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/shuangjian.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/shuangjian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/xianlingzi.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/movieClips/xianlingzi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui/SkillArea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui/btn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui/common_cell1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui/common_cell2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui/common_close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui/common_di4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui/common_di5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui/common_jia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui/common_pkCell.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui/gold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui/maintitle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui/shouye.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui/star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui/tili.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui/xian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/Tips.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/anniu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/bar_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/bar_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/btn1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/btnActivity.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/btnBangPai.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/btnChat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/btnChengJiu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/btnConfig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/btnEmail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/btnGameLevel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/btnLianQi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/btnLogin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/btnRank.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/btnShop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/btn_EveryDayTask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/btn_MainTask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/btnpackage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/hp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/hp_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/input.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/jiantou.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/jiantou2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/jingying_level.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/jjc_level.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/kuang1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/kuang2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/kuang3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/kuang4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/kuang6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/mainBg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/mima.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/panel1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/panel2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/rmb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/rongyu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/shenqi_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/shijian_level.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/tab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/tip_Lose.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/tip_Win.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/toukui_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/touxiang.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/wuqi_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/xian1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/xian2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/xian3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/xian4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/xian5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/xian6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/xian7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/xiezi_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/yifu_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/assets/ui2/zhanghao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/default.res.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/gameRes/chapter2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/gameRes/jianxing.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/gameRes/jianxing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gameClient/resource/resource_game.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/client.iml" afterPath="$PROJECT_DIR$/.idea/client.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auto.bat" afterPath="$PROJECT_DIR$/auto.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/bin-debug/Main.js" afterPath="$PROJECT_DIR$/EgretGameEngine/bin-debug/Main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/bin-debug/Main.js.map" afterPath="$PROJECT_DIR$/EgretGameEngine/bin-debug/Main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/bin-debug/example/module/home/HomeView.js.map" afterPath="$PROJECT_DIR$/EgretGameEngine/bin-debug/example/module/home/HomeView.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/bin-debug/example/module/loading/LoadingController.js.map" afterPath="$PROJECT_DIR$/EgretGameEngine/bin-debug/example/module/loading/LoadingController.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/bin-debug/example/module/loading/LoadingView.js.map" afterPath="$PROJECT_DIR$/EgretGameEngine/bin-debug/example/module/loading/LoadingView.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/bin-debug/example/module/login/LoginView.js.map" afterPath="$PROJECT_DIR$/EgretGameEngine/bin-debug/example/module/login/LoginView.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/bin-debug/example/scene/UIScene.js.map" afterPath="$PROJECT_DIR$/EgretGameEngine/bin-debug/example/scene/UIScene.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/bin-debug/example/test/EUITest.js" afterPath="$PROJECT_DIR$/EgretGameEngine/bin-debug/example/test/EUITest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/bin-debug/example/test/EUITest.js.map" afterPath="$PROJECT_DIR$/EgretGameEngine/bin-debug/example/test/EUITest.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/resource/config/global.json" afterPath="$PROJECT_DIR$/EgretGameEngine/resource/config/global.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/resource/skins/GuiScreenSkin.exml" afterPath="$PROJECT_DIR$/EgretGameEngine/resource/skins/GuiScreenSkin.exml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/src/Main.ts" afterPath="$PROJECT_DIR$/EgretGameEngine/src/Main.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/src/core/net/socket/ByteArrayMsgByProtobuf.ts" afterPath="$PROJECT_DIR$/EgretGameEngine/src/core/net/socket/ByteArrayMsgByProtobuf.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/src/example/module/home/HomeView.ts" afterPath="$PROJECT_DIR$/EgretGameEngine/src/example/module/home/HomeView.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/src/example/module/loading/LoadingController.ts" afterPath="$PROJECT_DIR$/EgretGameEngine/src/example/module/loading/LoadingController.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/src/example/module/loading/LoadingView.ts" afterPath="$PROJECT_DIR$/EgretGameEngine/src/example/module/loading/LoadingView.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/src/example/module/login/LoginView.ts" afterPath="$PROJECT_DIR$/EgretGameEngine/src/example/module/login/LoginView.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/src/example/scene/UIScene.ts" afterPath="$PROJECT_DIR$/EgretGameEngine/src/example/scene/UIScene.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/src/example/test/EUITest.ts" afterPath="$PROJECT_DIR$/EgretGameEngine/src/example/test/EUITest.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EgretGameEngine/wingProperties.json" afterPath="$PROJECT_DIR$/EgretGameEngine/wingProperties.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extension/xiaodingCore/libs/egret/egret.d.ts" afterPath="$PROJECT_DIR$/extension/xiaodingCore/libs/egret/egret.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameClient/bin-debug/LoadingUI.js" afterPath="$PROJECT_DIR$/gameClient/bin-debug/LoadingUI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameClient/bin-debug/LoadingUI.js.map" afterPath="$PROJECT_DIR$/gameClient/bin-debug/LoadingUI.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameClient/bin-debug/Main.js" afterPath="$PROJECT_DIR$/gameClient/bin-debug/Main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameClient/bin-debug/Main.js.map" afterPath="$PROJECT_DIR$/gameClient/bin-debug/Main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameClient/egretProperties.json" afterPath="$PROJECT_DIR$/gameClient/egretProperties.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameClient/index.html" afterPath="$PROJECT_DIR$/gameClient/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameClient/src/LoadingUI.ts" afterPath="$PROJECT_DIR$/gameClient/src/LoadingUI.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameClient/src/Main.ts" afterPath="$PROJECT_DIR$/gameClient/src/Main.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gameClient/template/runtime/native_require.js" afterPath="$PROJECT_DIR$/gameClient/template/runtime/native_require.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gameClient/src/AssetAdapter.ts" afterPath="$PROJECT_DIR$/gameClient/src/core/adapter/AssetAdapter.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gameClient/src/ThemeAdapter.ts" afterPath="$PROJECT_DIR$/gameClient/src/core/adapter/ThemeAdapter.ts" />
     </list>
     <ignored path="client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,41 +597,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gameClient/src/Main.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainGameEntry.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gameClient/src/com/xiaoding/game/MainGameEntry.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc;n#MainGameEntry#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gameRes.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gameClient/resource/gameRes.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Main.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/Main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="75" column="66" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="71" />
+            <state relative-caret-position="543">
+              <caret line="66" column="14" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoadingScene.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/example/scene/LoadingScene.ts">
+      <file leaf-file-name="EUITest.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/example/test/EUITest.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SceneManager.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/scene/manager/SceneManager.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/App.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="308" column="24" selection-start-line="308" selection-start-column="24" selection-end-line="308" selection-end-column="24" />
+            <state relative-caret-position="-46">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,26 +651,61 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gameClient/egretProperties.json" />
         <option value="$PROJECT_DIR$/gameClient/src/socket/ClientSocket.ts" />
         <option value="$PROJECT_DIR$/gameClient/src/astar/GameTest.ts" />
         <option value="$PROJECT_DIR$/gameClient/src/astar/Grid.ts" />
         <option value="$PROJECT_DIR$/gameClient/resource/gameRes/feishu.json" />
         <option value="$PROJECT_DIR$/gameClient/resource/gameRes/mcColor.json" />
-        <option value="$PROJECT_DIR$/gameClient/resource/default.res.json" />
         <option value="$PROJECT_DIR$/gameClient/resource/gameRes/jianxing.json" />
         <option value="$PROJECT_DIR$/gameClient/index.html" />
-        <option value="$PROJECT_DIR$/gameClient/src/Main.ts" />
         <option value="$PROJECT_DIR$/gameTest/src/Main.ts" />
         <option value="$PROJECT_DIR$/auto.bat" />
         <option value="$PROJECT_DIR$/EgretGameEngine/resource/resource_version.json" />
+        <option value="$PROJECT_DIR$/EgretGameEngine/src/example/scene/LoadingScene.ts" />
+        <option value="$PROJECT_DIR$/EgretGameEngine/src/core/net/socket/ByteArrayMsgByProtobuf.ts" />
+        <option value="$PROJECT_DIR$/EgretGameEngine/libs/modules/egret/egret.js" />
+        <option value="$PROJECT_DIR$/EgretGameEngine/resource/skins/GuiScreenSkin.exml" />
+        <option value="$PROJECT_DIR$/EgretGameEngine/resource/resource_game.json" />
+        <option value="$PROJECT_DIR$/EgretGameEngine/libs/modules/res/res.js" />
+        <option value="$PROJECT_DIR$/extension/xiaodingCore/libs/egret/egret.d.ts" />
+        <option value="$PROJECT_DIR$/EgretGameEngine/src/example/module/home/HomeView.ts" />
+        <option value="$PROJECT_DIR$/EgretGameEngine/wingProperties.json" />
+        <option value="$PROJECT_DIR$/EgretGameEngine/resource/config/global.json" />
+        <option value="$PROJECT_DIR$/EgretGameEngine/src/example/module/loading/LoadingView.ts" />
+        <option value="$PROJECT_DIR$/EgretGameEngine/src/example/test/EUITest.ts" />
+        <option value="$PROJECT_DIR$/EgretGameEngine/src/example/module/login/LoginView.ts" />
+        <option value="$PROJECT_DIR$/EgretGameEngine/src/example/scene/UIScene.ts" />
+        <option value="$PROJECT_DIR$/EgretGameEngine/src/core/utils/ResourceUtils.ts" />
+        <option value="$PROJECT_DIR$/EgretGameEngine/resource/default.thm.json" />
+        <option value="$PROJECT_DIR$/EgretGameEngine/src/example/module/loading/LoadingController.ts" />
+        <option value="$PROJECT_DIR$/gameClient/src/core/adapter/ThemeAdapter.ts" />
+        <option value="$PROJECT_DIR$/gameClient/src/core/adapter/AssetAdapter.ts" />
+        <option value="$PROJECT_DIR$/gameClient/egretProperties.json" />
+        <option value="$PROJECT_DIR$/gameClient/src/core/App.ts" />
+        <option value="$PROJECT_DIR$/gameClient/src/LoadingUI.ts" />
+        <option value="$PROJECT_DIR$/gameClient/src/com/xiaoding/game/scenes/SceneLoading.ts" />
+        <option value="$PROJECT_DIR$/gameClient/src/com/xiaoding/game/constants/ModuleContronConstants.ts" />
+        <option value="$PROJECT_DIR$/gameClient/src/com/xiaoding/game/constants/SceneConstants.ts" />
+        <option value="$PROJECT_DIR$/gameClient/src/com/xiaoding/game/loading/control/LoadingControl.ts" />
+        <option value="$PROJECT_DIR$/gameClient/resource/default.thm.json" />
         <option value="$PROJECT_DIR$/EgretGameEngine/src/Main.ts" />
+        <option value="$PROJECT_DIR$/gameClient/resource/default.res.json" />
+        <option value="$PROJECT_DIR$/gameClient/resource/gameEuiRes.json" />
+        <option value="$PROJECT_DIR$/gameClient/src/com/xiaoding/game/MainGameEntry.ts" />
+        <option value="$PROJECT_DIR$/gameClient/src/Main.ts" />
       </list>
     </option>
   </component>
@@ -168,39 +788,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="EgretGameEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EgretGameEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EgretGameEngine" />
+              <option name="myItemId" value="gameClient" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -224,18 +812,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/auto.bat" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\ServerDemo\client" />
-      <recent name="E:\ServerDemo\client\gameClient\resource\gameRes" />
-      <recent name="E:\ServerDemo\client\gameClient\src\astar" />
-      <recent name="E:\ServerDemo\client\gameClient\src\socket" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ServerDemo\client\gameClient\src\com\xiaoding\game\load" />
+      <recent name="E:\ServerDemo\client\gameClient\src\com\xiaoding\game" />
       <recent name="E:\ServerDemo\client\gameClient\resource\gameRes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ServerDemo\client\gameClient\resource" />
+      <recent name="E:\ServerDemo\client\gameClient\src\com\xiaoding\game\loading" />
+      <recent name="E:\ServerDemo\client\gameClient\src\com\xiaoding\game\constants" />
+      <recent name="E:\ServerDemo\client\extension" />
+      <recent name="E:\ServerDemo\client\gameClient" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.egretEngine">
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/client/gameClient/index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/client/gameClient/index.html">
       <method>
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_buildGameClient" />
       </method>
@@ -293,14 +884,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration default="false" name="egretEngine" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/client/EgretGameEngine/index.html">
+    <configuration default="false" name="egretEngine" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63343/client/EgretGameEngine/index.html">
       <method>
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_buildGameClient" />
       </method>
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.egretEngine" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.egretEngine" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -322,32 +913,35 @@
       <option name="presentableId" value="Default" />
       <updated>1463993254992</updated>
       <workItem from="1463993256255" duration="18444000" />
-      <workItem from="1464140096561" duration="26010000" />
+      <workItem from="1464140096561" duration="46819000" />
+      <workItem from="1465286672236" duration="65000" />
+      <workItem from="1465286776841" duration="4605000" />
+      <workItem from="1465362911158" duration="13224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44454000" />
+    <option name="totallyTimeSpent" value="83157000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28976697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33637285" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12360689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.254306" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3069909" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3242148" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21580547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -364,248 +958,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="52" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gameClient/src/Main.ts">
+    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/net/http/Http.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extension/particle/bin/particle/particle.js" />
-    <entry file="file://$PROJECT_DIR$/gameClient/src/socket/ClientSocket.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameClient/resource/default.thm.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameClient/src/astar/AStar2.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameClient/src/astar/GameTest.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="154" column="8" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameClient/src/astar/NodePoint.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameClient/src/astar/Grid.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameClient/resource/gameRes/mcColor.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameClient/resource/gameRes/feishu.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameClient/resource/gameRes/feishu.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameClient/resource/gameRes/chapter2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameClient/resource/default.res.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameClient/bin-release/web/160525135112/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameClient/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameClient/resource/gameRes/jianxing.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameTest/src/astar/Grid.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameTest/src/Main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameTest/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameClient/src/Main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="240" column="0" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EgretGameEngine/egretProperties.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameClient/egretProperties.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EgretGameEngine/wingProperties.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/utils/DeviceUtils.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EgretGameEngine/resource/resource_version.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/starlingswf/game/StarlingSwfFactory.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="94" column="11" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/example/test/StarlingSwfTest.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/example/module/game/GameController.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/example/test/ActTest.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="52" column="72" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/utils/ResourceUtils.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2512">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/base/BaseClass.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="245">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -618,39 +979,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/net/socket/Socket.ts">
+    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/net/socket/ByteArrayMsg.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2774">
-          <caret line="146" column="42" selection-start-line="146" selection-start-column="42" selection-end-line="146" selection-end-column="42" />
+        <state relative-caret-position="222">
+          <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/App.ts">
+    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/net/socket/ByteArrayMsgByProtobuf.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="308" column="24" selection-start-line="308" selection-start-column="24" selection-end-line="308" selection-end-column="24" />
+        <state relative-caret-position="247">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/scene/manager/SceneManager.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/Main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="75" column="66" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/scene/base/BaseSpriteLayer.ts">
+    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/example/module/loading/LoadingView.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
@@ -660,40 +1005,371 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/scene/base/BaseEuiLayer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="76">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/example/consts/ViewConst.ts">
+    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/scene/base/BaseSpriteLayer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="76">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/core/mvc/view/IBaseView.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/example/scene/LayerManager.ts">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/example/scene/UIScene.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/App.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="295" column="31" selection-start-line="295" selection-start-column="31" selection-end-line="295" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/mvc/controller/BaseController.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="81" column="46" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/example/module/loading/LoadingController.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/ThemeAdapter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-430">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/adapter/AssetAdapter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/adapter/ThemeAdapter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/core/adapter/MergeJsonAnalyzer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/core/adapter/ThemeAdapter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/core/adapter/AssetAdapter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extension/xiaodingCore/libs/eui/eui.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="9783" column="10" selection-start-line="9783" selection-start-column="10" selection-end-line="9783" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/core/dragonBones/EgretTextureAtlasMore.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EgretGameEngine/wingProperties.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/librarys/protobuf/bin/protobuf/protobuf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EgretGameEngine/egretProperties.json">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="25" />
+          <caret line="35" column="9" selection-start-line="29" selection-start-column="8" selection-end-line="35" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extension/protobuf/bin/protobuf/protobuf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/core/App.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="340" column="19" selection-start-line="340" selection-start-column="19" selection-end-line="340" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/egretProperties.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/core/utils/DebugUtils.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/core/utils/StageUtils.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/LoadingUI.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/core/scene/base/BaseScene.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/core/scene/base/BaseScene.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        <state relative-caret-position="152">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/com/xiaoding/game/constants/ModuleContronConstants.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/com/xiaoding/game/constants/SceneConstants.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/com/xiaoding/game/scenes/SceneLoading.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc;n#SceneLoading#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/com/xiaoding/game/loading/control/LoadingControl.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc;n#LoadingControl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/resource/default.thm.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/example/scene/LoadingScene.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        <state relative-caret-position="209">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/core/utils/ResourceUtils.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="124" column="54" selection-start-line="124" selection-start-column="54" selection-end-line="124" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EgretGameEngine/resource/resource_game.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/resource/assets/resource.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-950">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/resource/resource_game.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18788">
+          <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/resource/default.thm.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/resource/gameRes/chapter2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/resource/gameEuiRes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/Main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="66" column="14" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EgretGameEngine/src/example/test/EUITest.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/resource/gameRes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/com/xiaoding/game/MainGameEntry.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc;n#MainGameEntry#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameClient/src/Main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding />
         </state>
       </provider>

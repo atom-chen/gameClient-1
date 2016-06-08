@@ -13005,7 +13005,7 @@ declare module egret {
          */
         setArrayBuffer(buffer: ArrayBuffer): void;
         /**
-         * @private
+         *
          */
         buffer: ArrayBuffer;
         /**
