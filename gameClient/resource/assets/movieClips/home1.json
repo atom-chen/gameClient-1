@@ -1,0 +1,22 @@
+{
+"file":"home1.png",
+"mc":{
+	"y_idle":{
+"frameRate": 24,
+"frames":[{"res":"home1.png","x":-46,"y":-101,"duration":1}]
+}
+,	"y_attack":{
+"frameRate": 24,
+"frames":[{"res":"home1.png","x":-46,"y":-101,"duration":1}]
+}
+,	"y_move":{
+"frameRate": 24,
+"frames":[{"res":"home1.png","x":-46,"y":-101,"duration":1}]
+}
+,	"y_beattack":{
+"frameRate": 24,
+"frames":[{"res":"home1.png","x":-46,"y":-101,"duration":1}]
+}
+},"res":{
+"home1.png":{"x":0,"y":0,"w":106,"h":147}}
+}

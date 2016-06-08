@@ -1,0 +1,22 @@
+{
+"file":"huoyanfentian_eft.png",
+"mc":{
+	"eft":{
+"frameRate": 24,
+"frames":[{"res":"image  (1).png","x":-119.65,"y":-247.35,"duration":2},
+{"res":"image  (2).png","x":-133.3,"y":-301.75,"duration":2},
+{"res":"image  (3).png","x":-203.35,"y":-304.1,"duration":2},
+{"res":"image  (4).png","x":-189.3,"y":-315.6,"duration":2},
+{"res":"image  (5).png","x":-179.15,"y":-302.9,"duration":2},
+{"res":"image  (6).png","x":-169.55,"y":-233.1,"duration":2},
+{"res":"image  (7).png","x":-54.3,"y":-51.85,"duration":2}]
+}
+},"res":{
+"image  (1).png":{"x":0,"y":0,"w":261,"h":157},
+"image  (2).png":{"x":261,"y":0,"w":290,"h":429},
+"image  (3).png":{"x":551,"y":0,"w":371,"h":434},
+"image  (4).png":{"x":922,"y":0,"w":396,"h":441},
+"image  (5).png":{"x":0,"y":441,"w":396,"h":443},
+"image  (6).png":{"x":396,"y":441,"w":394,"h":372},
+"image  (7).png":{"x":790,"y":441,"w":132,"h":91}}
+}
