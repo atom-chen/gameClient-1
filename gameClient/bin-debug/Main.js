@@ -39,17 +39,15 @@ var Main = (function (_super) {
         theme.addEventListener(eui.UIEvent.COMPLETE, this.onThemeComplete, this);
     };
     p.onThemeComplete = function () {
-        var btn = new eui.Button();
-        this.addChild(btn);
-        btn.label = "hhhhh";
-        btn.x = 200;
         new MainGameEntry();
     };
     p.initScene = function () {
-        App.SceneManager.register(SceneConstants.SCENE_LOADING, new SceneLoading);
+        //场景须先注册，才能runScene
+        App.SceneManager.register(SceneConstants.SCENE_LOADING, new SceneLoading());
+        App.SceneManager.register(SceneConstants.SCENE_UI, new SceneUI());
     };
     p.initModule = function () {
-        App.ControllerManager.register(ModuleContronConstants.LOADING, new LoadingControl);
+        App.ControllerManager.register(ControlConstants.LOADING, new LoadingControl);
     };
     return Main;
 }(egret.DisplayObjectContainer));

@@ -46,13 +46,24 @@
 	<script egret="game" src="bin-debug/astar/Grid.js"></script>
 	<script egret="game" src="bin-debug/astar/MathUtil.js"></script>
 	<script egret="game" src="bin-debug/astar/NodePoint.js"></script>
-	<script egret="game" src="bin-debug/com/xiaoding/game/constants/ModuleContronConstants.js"></script>
+	<script egret="game" src="bin-debug/core/mvc/view/BaseEuiView.js"></script>
+	<script egret="game" src="bin-debug/com/xiaoding/game/base/BasePanelView.js"></script>
+	<script egret="game" src="bin-debug/com/xiaoding/game/constants/ControlConstants.js"></script>
+	<script egret="game" src="bin-debug/com/xiaoding/game/constants/LoadingConstants.js"></script>
 	<script egret="game" src="bin-debug/com/xiaoding/game/constants/SceneConstants.js"></script>
+	<script egret="game" src="bin-debug/com/xiaoding/game/constants/ViewConstants.js"></script>
 	<script egret="game" src="bin-debug/core/mvc/controller/BaseController.js"></script>
+	<script egret="game" src="bin-debug/com/xiaoding/game/home/control/HomeControl.js"></script>
+	<script egret="game" src="bin-debug/com/xiaoding/game/home/view/HomeView.js"></script>
 	<script egret="game" src="bin-debug/com/xiaoding/game/loading/control/LoadingControl.js"></script>
+	<script egret="game" src="bin-debug/com/xiaoding/game/loading/view/LoadingView.js"></script>
 	<script egret="game" src="bin-debug/com/xiaoding/game/MainGameEntry.js"></script>
+	<script egret="game" src="bin-debug/core/scene/base/BaseSpriteLayer.js"></script>
+	<script egret="game" src="bin-debug/core/scene/base/BaseEuiLayer.js"></script>
+	<script egret="game" src="bin-debug/com/xiaoding/game/scenes/LayerManager.js"></script>
 	<script egret="game" src="bin-debug/core/scene/base/BaseScene.js"></script>
 	<script egret="game" src="bin-debug/com/xiaoding/game/scenes/SceneLoading.js"></script>
+	<script egret="game" src="bin-debug/com/xiaoding/game/scenes/SceneUI.js"></script>
 	<script egret="game" src="bin-debug/core/adapter/AssetAdapter.js"></script>
 	<script egret="game" src="bin-debug/core/adapter/MergeJsonAnalyzer.js"></script>
 	<script egret="game" src="bin-debug/core/adapter/ThemeAdapter.js"></script>
@@ -72,7 +83,6 @@
 	<script egret="game" src="bin-debug/core/mvc/ControllerManager.js"></script>
 	<script egret="game" src="bin-debug/core/mvc/model/BaseModel.js"></script>
 	<script egret="game" src="bin-debug/core/mvc/proxy/BaseProxy.js"></script>
-	<script egret="game" src="bin-debug/core/mvc/view/BaseEuiView.js"></script>
 	<script egret="game" src="bin-debug/core/mvc/view/BaseSpriteView.js"></script>
 	<script egret="game" src="bin-debug/core/mvc/view/IBaseView.js"></script>
 	<script egret="game" src="bin-debug/core/mvc/ViewManager.js"></script>
@@ -86,8 +96,6 @@
 	<script egret="game" src="bin-debug/core/net/socket/SocketConst.js"></script>
 	<script egret="game" src="bin-debug/core/net/socket/UTFMsg.js"></script>
 	<script egret="game" src="bin-debug/core/net/socket/UTFMsgByJson.js"></script>
-	<script egret="game" src="bin-debug/core/scene/base/BaseEuiLayer.js"></script>
-	<script egret="game" src="bin-debug/core/scene/base/BaseSpriteLayer.js"></script>
 	<script egret="game" src="bin-debug/core/scene/manager/SceneManager.js"></script>
 	<script egret="game" src="bin-debug/core/sound/BaseSound.js"></script>
 	<script egret="game" src="bin-debug/core/sound/SoundBg.js"></script>
@@ -148,8 +156,8 @@
          data-orientation="auto"
          data-scale-mode="showAll"
          data-frame-rate="60"
-         data-content-width="640"
-         data-content-height="1136"
+         data-content-width="480"
+         data-content-height="800"
          data-show-paint-rect="false"
          data-multi-fingered="2"
          data-show-fps="true" data-show-log="false"

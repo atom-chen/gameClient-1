@@ -50,3 +50,21 @@ declare module skins{
 	class VSliderSkin extends eui.Skin{
 	}
 }
+declare class HomeViewSkin extends eui.Skin{
+}
+declare class LoadingUISkin extends eui.Skin{
+}
+declare class MenuButtonSkin extends eui.Skin{
+}
+declare class MenuSkin extends eui.Skin{
+}
+declare class PanelSkin extends eui.Skin{
+}
+declare class SaleItemSkin extends eui.Skin{
+}
+declare class TabBarButtonSkin extends eui.Skin{
+}
+declare class TabBarSkin extends eui.Skin{
+}
+declare class TaskItemRendererSkin extends eui.Skin{
+}

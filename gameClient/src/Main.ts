@@ -33,11 +33,11 @@ class Main extends egret.DisplayObjectContainer
 		//初始化
 		this.initScene();
 		this.initModule();
+
 		App.SceneManager.runScene(SceneConstants.SCENE_LOADING);
 
 
 		this.initGameConfig();
-
 	}
 
 	private initGameConfig():void
@@ -57,21 +57,18 @@ class Main extends egret.DisplayObjectContainer
 
 	private onThemeComplete():void
 	{
-		var btn:eui.Button=new eui.Button();
-		this.addChild(btn);
-		btn.label="hhhhh";
-		btn.x=200;
-
 		new MainGameEntry();
 	}
 
 	private initScene():void
 	{
-		App.SceneManager.register(SceneConstants.SCENE_LOADING, new SceneLoading);
+		//场景须先注册，才能runScene
+		App.SceneManager.register(SceneConstants.SCENE_LOADING, new SceneLoading());
+		App.SceneManager.register(SceneConstants.SCENE_UI, new SceneUI());
 	}
 
 	private initModule():void
 	{
-		App.ControllerManager.register(ModuleContronConstants.LOADING, new LoadingControl);
+		App.ControllerManager.register(ControlConstants.LOADING, new LoadingControl);
 	}
 }

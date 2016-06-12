@@ -6,6 +6,7 @@ var SceneConstants = (function () {
     }
     var d = __define,c=SceneConstants,p=c.prototype;
     SceneConstants.SCENE_LOADING = 10001;
+    SceneConstants.SCENE_UI = 10002;
     return SceneConstants;
 }());
 egret.registerClass(SceneConstants,'SceneConstants');

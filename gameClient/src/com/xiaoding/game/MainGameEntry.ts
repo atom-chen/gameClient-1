@@ -12,10 +12,22 @@ class MainGameEntry
 
 	private onResourceLoadComplete():void
 	{
+		this.initModule();
+
+		App.SceneManager.runScene(SceneConstants.SCENE_UI);
 	}
 
 	private onResourceLoadProgress(itemsLoaded:number, itemsTotal:number):void
 	{
-		console.info((itemsLoaded / itemsTotal * 100));
+		App.ControllerManager.applyFunc(ControlConstants.LOADING, LoadingConstants.SetProgress, itemsLoaded, itemsTotal);
+	}
+
+
+	/**
+	 * 初始化所有模块
+	 */
+	private initModule():void
+	{
+		App.ControllerManager.register(ControlConstants.Home, new HomeControl());
 	}
 }

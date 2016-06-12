@@ -9,9 +9,17 @@ var MainGameEntry = (function () {
     }
     var d = __define,c=MainGameEntry,p=c.prototype;
     p.onResourceLoadComplete = function () {
+        this.initModule();
+        App.SceneManager.runScene(SceneConstants.SCENE_UI);
     };
     p.onResourceLoadProgress = function (itemsLoaded, itemsTotal) {
-        console.info((itemsLoaded / itemsTotal * 100));
+        App.ControllerManager.applyFunc(ControlConstants.LOADING, LoadingConstants.SetProgress, itemsLoaded, itemsTotal);
+    };
+    /**
+     * 初始化所有模块
+     */
+    p.initModule = function () {
+        App.ControllerManager.register(ControlConstants.Home, new HomeControl());
     };
     return MainGameEntry;
 }());

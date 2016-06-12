@@ -28,6 +28,15 @@
     "resource/eui_skins/TextInputSkin.exml",
     "resource/eui_skins/ToggleSwitchSkin.exml",
     "resource/eui_skins/VScrollBarSkin.exml",
-    "resource/eui_skins/VSliderSkin.exml"
+    "resource/eui_skins/VSliderSkin.exml",
+    "resource/skins/HomeViewSkin.exml",
+    "resource/skins/LoadingUISkin.exml",
+    "resource/skins/MenuButtonSkin.exml",
+    "resource/skins/MenuSkin.exml",
+    "resource/skins/PanelSkin.exml",
+    "resource/skins/SaleItemSkin.exml",
+    "resource/skins/TabBarButtonSkin.exml",
+    "resource/skins/TabBarSkin.exml",
+    "resource/skins/TaskItemRendererSkin.exml"
   ]
 }
